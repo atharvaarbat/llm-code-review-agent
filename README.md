@@ -355,12 +355,6 @@ The LLM understands code context regardless of language.
 
 ---
 
-## License
-
-[Your License Here]
-
----
-
 ## Contributing
 
 Contributions welcome! Please open an issue or pull request.
