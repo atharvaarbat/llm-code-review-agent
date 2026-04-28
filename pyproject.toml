@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "llm-code-review-agent"
+version = "1.0.0"
+description = "LLM‑powered code review CLI that processes git diffs into structured JSON"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+    "tiktoken>=0.5.0",
+    "unidiff>=0.7.0",
+]
+
+[project.scripts]
+llm-review = "llm_code_review_agent.cli:main"
