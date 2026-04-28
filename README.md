@@ -17,6 +17,10 @@ A CLI tool that analyzes `git diff` output using LLMs via OpenRouter and returns
 - **Git** installed and available in PATH
 - **OpenRouter API key** ([get one here](https://openrouter.ai/keys))
 
+## Example Output
+
+![CLI Output Screenshot](screenshots/cli-output.png)
+
 ## Quick Start
 
 ### 1. Clone and install
